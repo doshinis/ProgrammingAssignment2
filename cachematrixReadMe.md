@@ -9,42 +9,42 @@ Following are the simple tests with results from Console.
 
 ### TEST 1
 
-> m1 <- matrix(1:4, 2, 2)
-> m1
-      [,1] [,2]
-[1,]    1    3
-[2,]    2    4
-> x <- makeCacheMatrix(m1)
-> cacheSolve(x)
-      [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
-> cacheSolve(x)
-getting cached data
-      [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
-> cacheSolve(x)
-getting cached data
-      [,1] [,2]
-[1,]   -2  1.5
-[2,]    1 -0.5
+> m1 <- matrix(1:4, 2, 2)  
+> m1  
+      [,1] [,2]  
+[1,]    1    3  
+[2,]    2    4  
+> x <- makeCacheMatrix(m1)  
+> cacheSolve(x)  
+      [,1] [,2]  
+[1,]   -2  1.5  
+[2,]    1 -0.5  
+> cacheSolve(x)  
+getting cached data  
+      [,1] [,2]  
+[1,]   -2  1.5  
+[2,]    1 -0.5  
+> cacheSolve(x)  
+getting cached data  
+      [,1] [,2]  
+[1,]   -2  1.5  
+[2,]    1 -0.5  
 
 ### TEST 2
 
-> m1 <- matrix( c(-1, -1, 2, 1), nrow = 2, ncol = 2)
-> m1
-      [,1] [,2]
-[1,]   -1    2
-[2,]   -1    1
-> x <- makeCacheMatrix(m1)
-> cacheSolve(x)
-      [,1] [,2]
-[1,]    1   -2
-[2,]    1   -1
-> cacheSolve(x)
-getting cached data
-      [,1] [,2]
-[1,]    1   -2
-[2,]    1   -1
-> 
+> m1 <- matrix( c(-1, -1, 2, 1), nrow = 2, ncol = 2)  
+> m1  
+      [,1] [,2]  
+[1,]   -1    2  
+[2,]   -1    1  
+> x <- makeCacheMatrix(m1)  
+> cacheSolve(x)  
+      [,1] [,2]  
+[1,]    1   -2  
+[2,]    1   -1  
+> cacheSolve(x)  
+getting cached data  
+      [,1] [,2]  
+[1,]    1   -2  
+[2,]    1   -1  
+>   
