@@ -6,10 +6,10 @@
 
 ##The "makeCacheMatrix" function, creates a special "matrix", containing
 ## the mtrix for which inverse will be calculated. It contains functions for:
-##1.  set the value of the vector
-##2.  get the value of the vector
-##3.  set the value of the mean
-##4.  get the value of the mean
+##1.  set the value of the matrix
+##2.  get the value of the matrix
+##3.  set the value of the inverse matrix
+##4.  get the value of the inverse matrix
 
 ## makeCacheMatrix should be called first as x <- makeCacheMatrix([matrix object]), 
 ## so that x object can be used by cacheSolve(x,...) to make calls using $operator
